@@ -10,10 +10,12 @@ public abstract class Abstrac {
 		System.out.println("deposit per:2%");
 
 	}
-	 void loan(long num) {
-		System.out.println("loan:"+num);  
+	abstract void loan() ;
+		  
 
-	}
-	 
+	
+	abstract void fixed(); 
+		
+	
 
 }
