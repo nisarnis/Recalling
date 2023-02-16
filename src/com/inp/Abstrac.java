@@ -1,4 +1,5 @@
 package com.inp;
+
 //Parent-it contains both abstract and non abstract methods
 public abstract class Abstrac {
 
@@ -10,12 +11,11 @@ public abstract class Abstrac {
 		System.out.println("deposit per:2%");
 
 	}
-	abstract void loan() ;
-		  
 
-	
-	abstract void fixed(); 
-		
-	
+	abstract void loan();
+
+	abstract void currentAccount();
+
+	abstract void fixed();
 
 }

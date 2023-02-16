@@ -13,6 +13,11 @@ public class Abstractchild extends Abstrac {
 		System.out.println("Fixed:3%");
 
 	}
+	@Override
+	void currentAccount() {
+		System.out.println("current:6%");
+		
+	}
 
 	public static void main(String[] args) {
 		Abstractchild c = new Abstractchild();
